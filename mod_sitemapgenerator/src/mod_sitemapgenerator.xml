@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension version="3.4" type="module" method="upgrade" client="administrator">
+	<name>mod_sitemapgenerator</name>
+	<description>MOD_SITEMAPGENERATOR_DESCRIPTION</description>
+	
+	<author>Marco Beierer</author>
+	<authorEmail>info@marcobeierer.ch</authorEmail>
+	<authorUrl>https://www.marcobeierer.ch</authorUrl>
+	
+	<version>1.0.0-beta.1</version>
+	<creationDate>April 2015</creationDate>
+	
+	<copyright>Copyright (C) 2015 Marco Beierer. All rights reserved.</copyright>
+	<license>http://www.gnu.org/licenses/agpl-3.0.html GNU/AGPL</license>
+
+	<files folder="module">
+		<filename module="mod_sitemapgenerator">mod_sitemapgenerator.php</filename>
+		<folder>tmpl</folder>
+	</files>
+
+	<languages folder="language">
+		<language tag="en-GB">en-GB.mod_sitemapgenerator.ini</language>
+		<language tag="en-GB">en-GB.mod_sitemapgenerator.sys.ini</language>
+	</languages>
+
+	<media folder="media" destination="mod_sitemapgenerator">
+	</media>
+	
+	<config>
+		<fields name="params">
+			<fieldset name="basic">
+			</fieldset>
+		</fields>
+	</config>
+</extension>

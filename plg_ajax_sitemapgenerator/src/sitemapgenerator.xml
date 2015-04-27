@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension version="3.3" type="plugin" group="ajax" method="upgrade">
+	<name>plg_ajax_sitemapgenerator</name>
+	<description>PLG_AJAX_SITEMAPGENERATOR_DESCRIPTION</description>
+	
+	<author>Marco Beierer</author>
+	<authorEmail>info@marcobeierer.ch</authorEmail>
+	<authorUrl>https://www.marcobeierer.ch</authorUrl>
+	
+	<version>1.0.0-beta.1</version>
+	<creationDate>April 2015</creationDate>
+	
+	<copyright>Copyright (C) 2015 Marco Beierer. All rights reserved.</copyright>
+	<license>http://www.gnu.org/licenses/agpl-3.0.html GNU/AGPL</license>
+
+	<files folder="plugin">
+		<filename plugin="sitemapgenerator">sitemapgenerator.php</filename>
+	</files>
+
+	<languages folder="language">
+		<language tag="en-GB">en-GB.plg_ajax_sitemapgenerator.sys.ini</language>
+		<language tag="en-GB">en-GB.plg_ajax_sitemapgenerator.ini</language>
+	</languages>
+
+	<config>
+		<fields name="params">
+			<fieldset name="basic">
+			</fieldset>
+		</fields>
+	</config>
+</extension>
