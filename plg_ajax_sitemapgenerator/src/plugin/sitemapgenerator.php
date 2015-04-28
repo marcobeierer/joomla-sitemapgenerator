@@ -43,7 +43,7 @@ class plgAjaxSitemapgenerator extends JPlugin {
 		if ($reader->isValid()) { // TODO check if empty?
 
 			if (defined('JPATH_ROOT') && JPATH_ROOT != '') {
-				file_put_contents(JPATH_ROOT . '/sitemap.xml', $response); // TODO handle error
+				file_put_contents(JPATH_ROOT . DIRECTORY_SEPARATOR . 'sitemap.xml', $response); // TODO handle error
 				return JText::_('PLG_AJAX_SITEMAPGENERATOR_SUCCESS');
 			}
 		}
