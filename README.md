@@ -14,6 +14,10 @@ The sitemap generator uses an external service to crawl your website and create 
 - Ajax Interface (delivered with the Joomla core)
 - Linux webserver (normally the case)
 
+## Download
+The download of the installation package is available at:
+https://static.marcobeierer.com/joomla-extensions/pkg_sitemapgenerator-latest.zip
+
 ## Installation instructions
 1. Download the installation package.
 2. Install the package.
