@@ -19,6 +19,6 @@
 	</files>
 
 	<updateservers>
-		<server type="extension" name="Sitemap Generator Update Site">https://static.marcobeierer.com/joomla-extensions/sitemapgenerator.xml</server>
+		<server type="extension" name="Sitemap Generator Update Site">https://static.marcobeierer.com/joomla-extensions/sitemapgenerator/update.xml</server>
 	</updateservers>
 </extension>
