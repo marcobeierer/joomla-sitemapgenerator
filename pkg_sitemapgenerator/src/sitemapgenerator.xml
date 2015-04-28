@@ -7,7 +7,7 @@
 	<authorEmail>info@marcobeierer.ch</authorEmail>
 	<authorUrl>https://www.marcobeierer.ch</authorUrl>
 	
-	<version>1.0.0-beta.1</version>
+	<version>1.0.0-beta.2</version>
 	<creationDate>April 2015</creationDate>
 	
 	<copyright>Copyright (C) 2015 Marco Beierer. All rights reserved.</copyright>
@@ -19,6 +19,6 @@
 	</files>
 
 	<updateservers>
-		<server type="extension" name="Sitemap Generator Update Site">http://static.marcobeierer.com/joomla-extension/sitemapgenerator.xml</server>
+		<server type="extension" name="Sitemap Generator Update Site">https://static.marcobeierer.com/joomla-extensions/sitemapgenerator.xml</server>
 	</updateservers>
 </extension>
