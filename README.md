@@ -5,9 +5,10 @@ An easy to use sitemap generator for Joomla.
 The sitemap generator uses an external service to crawl your website and create a sitemap of your website. The generator works thus for every extension without the need for additional plugins. The computation costs for your website is also very low because the crawler acts like a normal visitor, who visits all pages once.
 
 ## Features
+- Simple setup.
 - Works out of the box with all Joomla extensions.
 - Low computations costs for your webserver.
-- Simple setup.
+- Uses the Joomla update function.
 
 ## Requirements
 - Joomla 3.4
@@ -16,7 +17,7 @@ The sitemap generator uses an external service to crawl your website and create 
 
 ## Download
 The download of the installation package is available at:
-https://static.marcobeierer.com/joomla-extensions/pkg_sitemapgenerator-latest.zip
+https://static.marcobeierer.com/joomla-extensions/sitemapgenerator/pkg_sitemapgenerator-latest.zip
 
 ## Installation instructions
 1. Download the installation package.
