@@ -46,3 +46,7 @@ If you already have an existing sitemap.xml in your Joomla root directory, this 
 
 ### 1.0.0-beta.2
 - Fixed update server url
+
+### 1.0.0-beta.3
+- Implement delay for subsequent requests
+- Added Windows compatibility
