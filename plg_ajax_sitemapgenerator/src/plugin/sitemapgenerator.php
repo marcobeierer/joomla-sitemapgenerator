@@ -16,7 +16,14 @@ class plgAjaxSitemapgenerator extends JPlugin {
 		$baseurl = JURI::root();
 		$baseurl64 = strtr(base64_encode($baseurl), '+/', '-_');
 
+		$subsequentRequest = false; // TODO implement a nicer solution
 		do {
+			if ($subsequentRequest) {
+				usleep(250000); // 250ms
+			} else {
+				$subsequentRequest = true;
+			}
+
 			$ch = curl_init();
 
 			curl_setopt($ch, CURLOPT_URL, 'https://api.marcobeierer.com/sitemap/v2/' . $baseurl64 . '?pdfs=1&joomla=1');
