@@ -13,6 +13,11 @@ class plgAjaxSitemapgenerator extends JPlugin {
 		$lang = JFactory::getLanguage();
 		$lang->load('plg_ajax_sitemapgenerator');
 
+		$user = JFactory::getUser();
+		if (!$user->authorise('core.login.admin')) {
+			return JError::raiseError('401', JText::_('PLG_AJAX_SITEMAPGENERATOR_ERROR_NOT_AUTHORISED'));
+		}
+
 		$baseurl = JURI::root();
 		$baseurl64 = strtr(base64_encode($baseurl), '+/', '-_');
 

@@ -39,6 +39,8 @@ By default the sitemap generator indexes the first 500 pages of your website. If
 ## Warnings
 If you already have an existing sitemap.xml in your Joomla root directory, this file would be overwritten. It is thus recommended to backup your existing sitemap.xml file before using the sitemap generator. I also have not tested the generator on Windows webspace. You should also access the sitemap.xml after the generation finished and check if everything is fine.
 
+It is also noteworthy that the plugin does only check if the current user is allowed to login to the admin interface. If so, the current user is allowed to generate a sitemap. The permissions or access level of the module do not affect the plugin.
+
 ## Changelog
 
 ### 1.0.0-beta.1
@@ -50,3 +52,6 @@ If you already have an existing sitemap.xml in your Joomla root directory, this 
 ### 1.0.0-beta.3
 - Implement delay for subsequent requests
 - Added Windows compatibility
+
+### 1.0.0-beta.4
+- Added permission check to plugin
