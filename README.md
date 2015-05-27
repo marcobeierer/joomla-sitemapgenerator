@@ -55,3 +55,4 @@ It is also noteworthy that the plugin does only check if the current user is all
 
 ### 1.0.0-beta.4
 - Added permission check to plugin
+- Fixed uninstall bug
