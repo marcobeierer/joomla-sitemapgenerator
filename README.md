@@ -42,17 +42,21 @@ If you already have an existing sitemap.xml in your Joomla root directory, this 
 It is also noteworthy that the plugin does only check if the current user is allowed to login to the admin interface. If so, the current user is allowed to generate a sitemap. The permissions or access level of the module do not affect the plugin.
 
 ## Changelog
+The versions in the changelog refer to the version numbers of the Sitemap Generator package.
 
-### 1.0.0-beta.1
-- Initial release
-
-### 1.0.0-beta.2
-- Fixed update server url
-
-### 1.0.0-beta.3
-- Implement delay for subsequent requests
-- Added Windows compatibility
+### 1.0.0-beta.5
+- Added a component for the sitemap generation.
 
 ### 1.0.0-beta.4
-- Added permission check to plugin
-- Fixed uninstall bug
+- Added permission check to plugin.
+- Fixed uninstall bug.
+
+### 1.0.0-beta.3
+- Implement delay for subsequent requests.
+- Added Windows compatibility.
+
+### 1.0.0-beta.2
+- Fixed update server url.
+
+### 1.0.0-beta.1
+- Initial release.
