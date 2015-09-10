@@ -4,16 +4,17 @@
 	<packagename>sitemapgenerator</packagename>
 	
 	<author>Marco Beierer</author>
-	<authorEmail>info@marcobeierer.ch</authorEmail>
-	<authorUrl>https://www.marcobeierer.ch</authorUrl>
+	<authorEmail>info@marcobeierer.com</authorEmail>
+	<authorUrl>https://www.marcobeierer.com</authorUrl>
 	
-	<version>1.0.0-beta.4</version>
-	<creationDate>May 2015</creationDate>
+	<version>1.0.0-beta.5</version>
+	<creationDate>September 2015</creationDate>
 	
 	<copyright>Copyright (C) 2015 Marco Beierer. All rights reserved.</copyright>
 	<license>http://www.gnu.org/licenses/agpl-3.0.html GNU/AGPL</license>
 
 	<files folder="packages">
+		<file type="component" id="com_sitemapgenerator">com_sitemapgenerator.zip</file>
 		<file type="plugin" id="sitemapgenerator" group="ajax">plg_ajax_sitemapgenerator.zip</file>
 		<file type="module" id="mod_sitemapgenerator" client="administrator">mod_sitemapgenerator.zip</file>
 	</files>
