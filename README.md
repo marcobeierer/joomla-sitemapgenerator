@@ -6,6 +6,11 @@ An easy to use sitemap generator for Joomla. Detailed information is available o
 ## Changelog
 The versions in the changelog refer to the version numbers of the Sitemap Generator package.
 
+### 1.0.0-rc.2
+*Release date: 17th November 2015*
+
+* Better error messages for cURL errors.
+
 ### 1.0.0-rc.1
 *Release date: 11th November 2015*
 
