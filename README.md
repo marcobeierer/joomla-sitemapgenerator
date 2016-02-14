@@ -6,6 +6,12 @@ An easy to use sitemap generator for Joomla. Detailed information is available o
 ## Changelog
 The versions in the changelog refer to the version numbers of the Sitemap Generator package.
 
+### 1.1.0-rc.1
+*Release date: 14th February 2016*
+
+* Improved support for mutlilanguage sites.
+* Support for cURL CA fallback file.
+
 ### 1.0.0-rc.2
 *Release date: 17th November 2015*
 
