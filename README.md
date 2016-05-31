@@ -6,6 +6,14 @@ An easy to use sitemap generator for Joomla. Detailed information is available o
 ## Changelog
 The versions in the changelog refer to the version numbers of the Sitemap Generator package.
 
+### 1.1.0-rc.2
+*Release date: 31th May 2016*
+- Implemented Cache-Control for ajax requests.
+- Fixed memory issue with very large sitemaps.
+- Added option to ignore embedded content (for example images).
+- Added option to select the maximum number of concurrent connections.
+- Discontinued development of Sitemap Generator module and plugin and implemented an uninstall notice.
+
 ### 1.1.0-rc.1
 *Release date: 14th February 2016*
 
