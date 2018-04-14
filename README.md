@@ -6,8 +6,16 @@ An easy to use sitemap generator for Joomla. Detailed information is available o
 ## Changelog
 The versions in the changelog refer to the version numbers of the Sitemap Generator package.
 
+### 1.2.1
+*Release date: 14th April 2018*
+
+- Force the use of IPv4, because IPv6 does not work for all configurations, probably due to a bug in some curl versions or the PHP curl integration.
+- Multiple crawler improvements.
+	- Added cookie support.
+
 ### 1.2.0
 *Release date: 31th May 2016*
+
 - Implemented Cache-Control for ajax requests.
 - Fixed memory issue with very large sitemaps.
 - Added option to ignore embedded content (for example images).
