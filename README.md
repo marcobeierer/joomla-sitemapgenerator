@@ -6,6 +6,14 @@ An easy to use sitemap generator for Joomla. Detailed information is available o
 ## Changelog
 The versions in the changelog refer to the version numbers of the Sitemap Generator package.
 
+### 1.3.0
+*Release date: 23th November 2018*
+
+- Added option to disable cookies.
+- Added option to remove query parameters from URLs before they are added to the sitemap.
+- Added reference count threshold option to ignore for example images if they are embedded on more than x pages.
+- Removed CA Fallback option.
+
 ### 1.2.1
 *Release date: 14th April 2018*
 
