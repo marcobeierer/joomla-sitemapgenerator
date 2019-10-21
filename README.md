@@ -6,6 +6,24 @@ An easy to use sitemap generator for Joomla. Detailed information is available o
 ## Changelog
 The versions in the changelog refer to the version numbers of the Sitemap Generator package.
 
+### 1.4.0
+*Release date: 21th October 2019*
+
+- Features
+	- Completely rewritten user interface.
+		- Uniform on all platforms (WordPress, online tool, WebsiteTools and Joomla).
+	- Sitemap backup on Sitemap Generator servers (pro only).
+	- Download function to redownload sitemap from last run (pro only).
+	- Stop generation process.
+	- Show more detailed stats after generation has finished.
+- Usability
+	- Autoresume without an extra click when already running.
+	- Load stats of last generation process when Sitemap Generator is opened (pro only).
+	- Added tabs for multilang sites for a better overview.
+- Config
+	- Set default value for `Reference Count Threshold` to 5 for new and old installations.
+	- Set default value for `Max Fetchers` to 3 for old installations.
+
 ### 1.3.0
 *Release date: 23th November 2018*
 
