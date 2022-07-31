@@ -6,6 +6,11 @@ An easy to use sitemap generator for Joomla. Detailed information is available o
 ## Changelog
 The versions in the changelog refer to the version numbers of the Sitemap Generator package.
 
+### 1.4.1
+*Release date: 1st August 2022*
+
+- Added payment info.
+
 ### 1.4.0
 *Release date: 21th October 2019*
 
