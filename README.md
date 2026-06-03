@@ -3,8 +3,27 @@ An easy to use sitemap generator for Joomla. Detailed information is available o
 
 [Joomla Sitemap Generator](https://www.marcobeierer.com/joomla-extensions/sitemap-generator)
 
+## Build
+Phing is no longer required. The `scripts/` directory contains bash replacements for the old Phing targets.
+
+- `scripts/build-pkg-sitemapgenerator.sh package [version]` builds the component ZIP and package ZIP.
+- `scripts/build-com-sitemapgenerator.sh package [version]` builds only the component ZIP.
+- `scripts/build-mod-sitemapgenerator.sh package [version]` builds the discontinued admin module ZIP.
+- `scripts/build-plg-ajax-sitemapgenerator.sh package [version]` builds the discontinued ajax plugin ZIP and TAR.GZ.
+- `scripts/build-all.sh package [version]` builds all installable artifacts.
+
+For install targets, pass a Joomla root with `JOOMLA_INSTALL=/path/to/joomla6 scripts/build-com-sitemapgenerator.sh install`.
+
 ## Changelog
 The versions in the changelog refer to the version numbers of the Sitemap Generator package.
+
+### 2.0.0
+*Release date: 3rd June 2026*
+
+- Updated the package, component, module and ajax plugin manifests for Joomla 6.
+- Converted the active component to Joomla's namespaced MVC/service provider structure.
+- Replaced Joomla 3 globals and removed Joomla 6-incompatible document asset calls.
+- Restored free usage without a token.
 
 ### 1.4.1
 *Release date: 1st August 2022*
